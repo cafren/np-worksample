@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Company>
+    <Departments>
+        <Department>
+            <departmentID>1001</departmentID>
+            <name>Engineering</name>
+            <managerID>1</managerID>
+            <location>Building A</location>
+        </Department>
+        <Department>
+            <departmentID>1002</departmentID>
+            <name>Human Resources</name>
+            <managerID>2</managerID>
+            <location>Building B</location>
+        </Department>
+    </Departments>
+    <Employees>
+        <Employee>
+            <employeeID>1</employeeID>
+            <firstname>John</firstname>
+            <lastname>Doe</lastname>
+            <citizenIdentifier>19800101-1234</citizenIdentifier>
+            <employmentDate>20210101</employmentDate>
+            <departmentID>1001</departmentID>
+            <profileImage>iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAwAB/avRKngAAAAASUVORK5CYII=</profileImage>
+        </Employee>
+        <Employee>
+            <employeeID>2</employeeID>
+            <firstname>Jane</firstname>
+            <lastname>Smith</lastname>
+            <citizenIdentifier>19820505-5678</citizenIdentifier>
+            <employmentDate>20180505</employmentDate>
+            <departmentID>1002</departmentID>
+            <profileImage>iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAwAB/avRKngAAAAASUVORK5CYII=</profileImage>
+        </Employee>
+        <Employee>
+            <employeeID>3</employeeID>
+            <firstname>Mike</firstname>
+            <lastname>Johnson</lastname>
+            <citizenIdentifier>19901212-7890</citizenIdentifier>
+            <employmentDate>20200115</employmentDate>
+            <departmentID>1001</departmentID>
+            <profileImage>iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAwAB/avRKngAAAAASUVORK5CYII=</profileImage>
+        </Employee>
+    </Employees>
+</Company>
