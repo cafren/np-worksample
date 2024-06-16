@@ -36,8 +36,8 @@ public class AccessCardInfoReader {
             if (matchedDepartmentNode != null) {
                 AccessCardInfo accessCardInfo = new AccessCardInfo(
                         employeeNode.getString("employeeID"),
-                        employeeNode.getString("firstName"),
-                        employeeNode.getString("lastName"),
+                        employeeNode.getString("firstname"),
+                        employeeNode.getString("lastname"),
                         employeeNode.getString("profileImage"),
                         employeeNode.getString("employmentDate"),
                         matchedDepartmentNode.getString("name"),

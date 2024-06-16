@@ -1,7 +1,5 @@
 package se.nordicpeak.accesscard;
 
-import se.unlogic.standardutils.xml.XMLParser;
-
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.geom.AffineTransform;
@@ -32,7 +30,6 @@ public class GraphicsUtil {
 
             String base64Image = accessCardInfo.getProfileImage();
             if (base64Image != null && !base64Image.isEmpty()) {
-                //If decodeBase...throws exception... it will break? so this should be in a try/catch???
                 BufferedImage profileImage = decodeBase64ToImage(base64Image);
                 if (profileImage != null) {
                     g2d.drawImage(profileImage, 152, 105, 295, 320, null);
